@@ -767,7 +767,7 @@
                                 <tr>
                     <td><span class="net-tag b">Rete Alfa</span></td>
 						<td><span class="placeholder-cell">192.168.0.</span></td>
-						<td><span class="placeholder-cell">255.255.255.224</span></td>
+						<td><span class="placeholder-cell">255.255.255.0</span></td>
 						<td><span class="placeholder-cell">192.168.0.1</span></td>
 						<td><span class="placeholder-cell">192.168.0.30</span></td>
 						<td><span class="placeholder-cell">192.168.0.31</span></td>
@@ -815,14 +815,14 @@
                     <td><code>PC-Alfa1</code></td>
                     <td><span class="net-tag b">Rete Alfa</span></td>
                     <td><span class="placeholder-cell">192.168.0.1</span></td>
-                    <td><span class="placeholder-cell">255.255.255.224</span></td>
+                    <td><span class="placeholder-cell">255.255.255.0</span></td>
                     <td><code>—</code></td>
                 </tr>
                 <tr>
                     <td><code>PC-Alfa2</code></td>
                     <td><span class="net-tag b">Rete Alfa</span></td>
                     <td><span class="placeholder-cell">192.168.0.2</span></td>
-                    <td><span class="placeholder-cell">255.255.255.224</span></td>
+                    <td><span class="placeholder-cell">255.255.255.0</span></td>
                     <td><code>—</code></td>
                 </tr>
                 <tr>
@@ -1482,9 +1482,7 @@ Default Gateway: <span class="comment">(lasciare vuoto)</span>
     </div>
 
     <div class="img-placeholder">
-        <div class="icon">🔬</div>
-        <div class="label">[IMG_18] — PDU Information dell'Echo Reply: nota gli IP invertiti e Type = 0</div>
-        <div class="hint">Cattura i dettagli del pacchetto di risposta, evidenziando il campo Type e gli IP invertiti</div>
+        <img src="invertito_type.png">
     </div>
 </section>
 
@@ -1542,9 +1540,7 @@ Default Gateway: <span class="comment">(lasciare vuoto)</span>
     </div>
 
     <div class="img-placeholder">
-        <div class="icon">❌</div>
-        <div class="label">[IMG_19] — Output del comando ping da PC-Alfa1 verso PC-Beta1 (fallimento - Request timed out)</div>
-        <div class="hint">Cattura il Command Prompt di PC-Alfa1 con il ping fallito verso un IP della Rete Beta</div>
+        <img src="Output_del_comando_ping_sbagliato.png">
     </div>
 
     <h3>Analisi nella Simulation Mode del ping fallito</h3>
